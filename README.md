@@ -22,3 +22,7 @@ Image classification performance on the CIFAR benchmarks for 50-layer architectu
 | QPHM-18-2| Cifar100 |   -        | -     |  -       |      81.45          | 
 | VPHM-50-2| Cifar100 |   -        | -     |  -       |      82.00          | 
 
+Validation loss and accuracy of 50 layer ResNet, quaternion, vectormap, QPHM, VPHM for CIFAR-100:
+<p align="center"> 
+  <img src="https://github.com/nazmul729/QPHM-VPHM/blob/main/figures/AccuracyCifar100ResNet50.PNG" width="550" title="Full Hypercomplex Network">
+</p>
