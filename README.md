@@ -7,6 +7,7 @@ incorporates parameterized hypercomplex multiplication (PHM) into the backend of
 <p align="center"> <img src="https://github.com/nazmul729/QPHM-VPHM/blob/main/figures/QARNET.PNG" width="550" title="Full Hypercomplex Network"></p>
 
 ### Experimental Results
+Image classification performance on the CIFAR benchmarks for 50-layer architectures-
 
 | Model    | Dataset  | Parameters | FLOPS |  Latency | Validation Accuracy |
 | -------- | -------- | :---------:|:-----:|:--------:|:-------------------:|
@@ -20,3 +21,4 @@ incorporates parameterized hypercomplex multiplication (PHM) into the backend of
 | VPHM-50  | Cifar100 |   15.5M    | 1.15G |  0.76ms  |      79.91          | 
 | QPHM-18-2| Cifar100 |   -        | -     |  -       |      81.45          | 
 | VPHM-50-2| Cifar100 |   -        | -     |  -       |      82.00          | 
+
