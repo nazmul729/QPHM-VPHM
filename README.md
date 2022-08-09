@@ -15,7 +15,6 @@ incorporates parameterized hypercomplex multiplication (PHM) into the backend of
 | VPHM-50  | Cifar10  |   15.5M    | 1.15G |  0.76ms  |      95.48          | 
 | QPHM-18-2| Cifar10  |   -        | -     |  -       |      96.24          | 
 | VPHM-50-2| Cifar10  |   -        | -     |  -       |      96.63          | 
-
 | RPHM-50  | Cifar100 |   20.6M    | 1.29G |  0.46ms  |      79.21          | 
 | QPHM-50  | Cifar100 |   18.07M   | 1.44G |  0.96ms  |      80.25          | 
 | VPHM-50  | Cifar100 |   15.5M    | 1.15G |  0.76ms  |      79.91          | 
