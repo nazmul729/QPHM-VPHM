@@ -1,1 +1,3 @@
-# QPHM-VPHM
+## Enhancing ResNet Image Classification Performance by using PHM
+<p align="justify">The advantages of using hypercomplex inspired networks have not been studied to the densely connected backend of hypercomplex Networks. This paper studies ResNet architectures and 
+incorporates parameterized hypercomplex multiplication (PHM) into the backend of residual, quaternion, and vectormap convolutional neural networks to assess the effect. We show that PHM does improve classification accuracy performance on several image datasets, including small, low-resolution CIFAR 10/100 and large high-resolution ImageNet and ASL, and can achieve state-of-the-art accuracy for hypercomplex networks.</p>
