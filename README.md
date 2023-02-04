@@ -9,18 +9,30 @@ incorporates parameterized hypercomplex multiplication (PHM) into the backend of
 ### Experimental Results
 Image classification performance on the CIFAR benchmarks for 50-layer architectures-
 
-| Model    | Dataset  | Parameters | FLOPS |  Latency | Validation Accuracy |
-| -------- | -------- | :---------:|:-----:|:--------:|:-------------------:|
-| RPHM-50  | Cifar10  |   20.6M    | 1.29G |  0.46ms  |      95.59          | 
-| QPHM-50  | Cifar10  |   18.07M   | 1.44G |  0.96ms  |      95.59          | 
-| VPHM-50  | Cifar10  |   15.5M    | 1.15G |  0.76ms  |      95.48          | 
-| QPHM-18-2| Cifar10  |   -        | -     |  -       |      96.24          | 
-| VPHM-50-2| Cifar10  |   -        | -     |  -       |      96.63          | 
-| RPHM-50  | Cifar100 |   20.6M    | 1.29G |  0.46ms  |      79.21          | 
-| QPHM-50  | Cifar100 |   18.07M   | 1.44G |  0.96ms  |      80.25          | 
-| VPHM-50  | Cifar100 |   15.5M    | 1.15G |  0.76ms  |      79.91          | 
-| QPHM-18-2| Cifar100 |   -        | -     |  -       |      81.45          | 
-| VPHM-50-2| Cifar100 |   -        | -     |  -       |      82.00          | 
+| Model      | Dataset  | Parameters | FLOPS |  Latency | Validation Accuracy |
+| ---------- | -------- | :---------:|:-----:|:--------:|:-------------------:|
+| CBS-QPHM-18| Cifar10  |   9.8M     |   -   |    -     |      94.81          |
+| CBS-QPHM-34| Cifar10  |   14.5M    |   -   |    -     |      94.91          |
+| CBS-QPHM-50| Cifar10  |   20.7M    |   -   |    -     |      94.50          |
+| CQPHM-18   | Cifar10  |   9.8M     |   -   |    -     |      94.95          |
+| CQPHM-34   | Cifar10  |   14.5M    |   -   |    -     |      95.15          |
+| CQPHM-50   | Cifar10  |   20.7M    |   -   |    -     |      95.29          |
+| RPHM-50    | Cifar10  |   20.6M    | 1.29G |  0.46ms  |      95.59          | 
+| QPHM-50    | Cifar10  |   18.07M   | 1.44G |  0.96ms  |      95.59          | 
+| VPHM-50    | Cifar10  |   15.5M    | 1.15G |  0.76ms  |      95.48          | 
+| QPHM-18-2  | Cifar10  |   -        | -     |  -       |      96.24          | 
+| VPHM-50-2  | Cifar10  |   -        | -     |  -       |      96.63          | 
+| CBS-QPHM-18| Cifar100 |   9.8M     |   -   |    -     |      73.93          |
+| CBS-QPHM-34| Cifar100 |   14.5M    |   -   |    -     |      71.05          |
+| CBS-QPHM-50| Cifar100 |   20.7M    |   -   |    -     |      73.27          |
+| CQPHM-18   | Cifar100 |   9.8M     |   -   |    -     |      77.72          |
+| CQPHM-34   | Cifar100 |   14.5M    |   -   |    -     |      78.75          |
+| CQPHM-50   | Cifar100 |   20.7M    |   -   |    -     |      79.48          |
+| RPHM-50    | Cifar100 |   20.6M    | 1.29G |  0.46ms  |      79.21          | 
+| QPHM-50    | Cifar100 |   18.07M   | 1.44G |  0.96ms  |      80.25          | 
+| VPHM-50    | Cifar100 |   15.5M    | 1.15G |  0.76ms  |      79.91          | 
+| QPHM-18-2  | Cifar100 |   -        | -     |  -       |      81.45          | 
+| VPHM-50-2  | Cifar100 |   -        | -     |  -       |      82.00          | 
 
 Validation loss and accuracy of 50 layer ResNet, quaternion, vectormap, QPHM, VPHM for CIFAR-100:
 <p align="center"> 
